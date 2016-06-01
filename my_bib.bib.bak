@@ -37,7 +37,13 @@
   year      = {2000},
   author    = {Eric Kandel, James Schwartz, Thomas Jessell},
   edition   = {4},
+  language  = {english},
   pages     = {577-80},
+}
+
+@Misc{ErodeDilate,
+  title = {Eroding and Dilating},
+  url   = {http://docs.opencv.org/2.4/doc/tutorials/imgproc/erosion_dilatation/erosion_dilatation.html},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
