@@ -47,31 +47,67 @@
   language     = {english},
 }
 
-@Misk{BilateralFilter,
-  title        = {Bilateral Filtering for Gray and Color Images},
-  howpublished = {\url{http://homepages.inf.ed.ac.uk/rbf/CVonline/LOCAL\_COPIES/MANDUCHI1/Bilateral\_Filtering.html}},
-  language     = {english},
-}
-
-@Misk{BilateralFilter,
-  title        = {Bilateral Filtering for Gray and Color Images},
-  howpublished = {\url{http://homepages.inf.ed.ac.uk/rbf/CVonline/LOCAL\_COPIES/MANDUCHI1/Bilateral\_Filtering.html}},
-  language     = {english},
-}
-
 @Misk{ErodeDilate,
   title        = {Eroding and Dilating},
   howpublished = {\url{http://docs.opencv.org/2.4/doc/tutorials/imgproc/erosion\_dilatation/erosion\_dilatation.html}},
 }
 
-@Misk{ErodeDilate,
-  title        = {Eroding and Dilating},
-  howpublished = {\url{http://docs.opencv.org/2.4/doc/tutorials/imgproc/erosion\_dilatation/erosion\_dilatation.html}},
+@Article{VioleJonesRussian,
+  author   = {Мурлин Алексей Георгиевич, Пиотровский Дмитрий Леонидович, Руденко Елизавета Алексеевна},
+  title    = {АЛГОРИТМ И МЕТОДЫ ОБНАРУЖЕНИЯ И РАСПОЗНАВАНИЯ ЖЕСТОВ РУКИ НА ВИДЕО В РЕЖИМЕ РЕАЛЬНОГО ВРЕМЕНИ},
+  journal  = {Научный журнал КубГАУ},
+  year     = {2014},
+  number   = {97},
+  pages    = {10},
+  month    = {3},
+  language = {russian},
 }
 
-@Misk{ErodeDilate,
-  title        = {Eroding and Dilating},
-  howpublished = {\url{http://docs.opencv.org/2.4/doc/tutorials/imgproc/erosion\_dilatation/erosion\_dilatation.html}},
+@Article{VioleJonesRussian2,
+  author   = {Н.Х. Фан, Т.Т. Буй, В.Г. Спицын},
+  title    = {РАСПОЗНАВАНИЕ ЖЕСТОВ НА ВИДЕОПОСЛЕДОВАТЕЛЬНОСТИ В РЕЖИМЕ РЕАЛЬНОГО ВРЕМЕНИ НА ОСНОВЕ ПРИМЕНЕНИЯ МЕТОДА ВИОЛЫ – ДЖОНСА, АЛГОРИТМА CAMSHIFT, ВЕЙВЛЕТ-ПРЕОБРАЗОВАНИЯ И МЕТОДА ГЛАВНЫХ КОМПОНЕНТ},
+  journal  = {Управление, вычислительная техника и информатика},
+  year     = {2013},
+  pages    = {103-110},
+  language = {english},
+}
+
+@Conference{BackgroundSubtraction,
+  author    = {Akio Ogihara},
+  title     = {Hand Region Extraction by Background Subtraction with Renewable Background for Hand Gesture Recognition},
+  booktitle = {International Symposium on Intelligent Signal Processing and Communications},
+  year      = {2006},
+  pages     = {227 - 230},
+  language  = {english},
+}
+
+@MastersThesis{ColorFIlters,
+  author   = {Michael J. Taylor, Tim Morris},
+  title    = {Adaptive skin segmentation via feature-based face detection},
+  school   = {School of Computer Science},
+  year     = {2014},
+  language = {english},
+}
+
+@Article{MOG1,
+  author   = {Zoran Zivkovic and Ferdinand van der Heijden},
+  title    = {Efficient adaptive density estimation per image pixel for the task of background subtraction},
+  journal  = {Pattern recognition letters},
+  year     = {2006},
+  volume   = {27},
+  number   = {7},
+  pages    = {773–780},
+  language = {english},
+}
+
+@Article{MOG2,
+  author   = {Zoran Zivkovic},
+  title    = {Improved adaptive gaussian mixture model for background subtraction},
+  journal  = {Proceedings of the 17th International Conference},
+  year     = {2004},
+  volume   = {2},
+  pages    = {28–31},
+  language = {english},
 }
 
 @Comment{jabref-meta: databaseType:bibtex;}
