@@ -1,0 +1,23 @@
+\begin{appendices}
+	
+	\includepdfset{nup=1x2,frame=true,delta=10mm 10mm,noautoscale=false}
+	\includepdf[pages=1-2,scale=0.78,offset=10mm -20mm,
+				pagecommand={\append{Ілюстративні матеріали доповіді}}
+			] {appendicies/presentation/beamer-main.pdf}
+	\includepdf[pages=3-,scale=0.78,offset=10mm 0mm,
+				pagecommand={\fancyhead[R]{\thepage}}
+			] {appendicies/presentation/beamer-main.pdf}
+	
+	\append{Лістинг коду}
+	%\lstinputlisting{appendicies/cppcode/main.cpp}
+	\section*{Заголовочні файли}
+	\subsection*{Допоміжні файли}
+		
+	\section*{Файли реалізації}
+
+	
+	\subsection*{Файл виконання класифікатора}
+	
+	\subsection*{Допоміжні файли}
+	
+\end{appendices}
