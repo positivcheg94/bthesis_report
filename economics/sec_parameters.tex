@@ -22,7 +22,7 @@ $X_4$ показує кількість програмного коду який
 \subsection{Кількісна оцінка параметрів}
 Гірші, середні і кращі значення параметрів вибираються на основі вимог замовника й умов, що характеризують експлуатацію ПП як показано у табл.~\ref*{tab:economics_program_parameters}
 
-\begin{table}[ht]
+\begin{table}[H]
 	\caption{Основні параметри ПП}
 	\centering
 \begin{tabular}{|p{0.3\textwidth}|p{0.11\textwidth}|p{0.1\textwidth}|p{0.1\textwidth}|p{0.1\textwidth}|p{0.1\textwidth}|}
@@ -85,7 +85,7 @@ $X_4$ показує кількість програмного коду який
 
 Результати експертного ранжування наведені у таблиці~\ref{tab:economics:parameter_range}.
 
-\begin{table}
+\begin{table}[H]
 	\caption{Результати експертного ранжування параметрів}
 	\centering
 	\begin{tabular}{| m{0.08\textwidth} | p{0.2\textwidth} | m{0.02\textwidth} | m{0.02\textwidth} | m{0.02\textwidth} | m{0.02\textwidth} | m{0.02\textwidth} | m{0.02\textwidth} | m{0.02\textwidth} |	p{0.08\textwidth}|p{0.08\textwidth}|p{0.09\textwidth}|}
@@ -140,7 +140,7 @@ $X_4$ показує кількість програмного коду який
 Ранжування можна вважати достовірним, тому що знайдений коефіцієнт узгодженості перевищує нормативний, котрий дорівнює $0.67$.
 
 Скориставшись результатами ранжування, проведемо попарне порівняння всіх параметрів і результати занесемо у таблицю~\ref{tab:economics:pair_wise_eval}
-\begin{table}
+\begin{table}[H]
 	\caption{Попарне порівняння параметрів}
 	\centering
 	\begin{tabular}{| p{0.2\textwidth} | p{0.02\textwidth} | p{0.02\textwidth} | p{0.02\textwidth} | p{0.02\textwidth} | p{0.02\textwidth} | p{0.02\textwidth} | p{0.02\textwidth} | p{0.14\textwidth}|p{0.14\textwidth}|}
@@ -192,8 +192,9 @@ $X_4$ показує кількість програмного коду який
 
 Як видно з таблиці~\ref{tab:economics:weight_param}, різниця значень коефіцієнтів вагомості не перевищує $2\%$, тому більшої кількості ітерацій не потрібно.
 
-\begin{table}[H]
+\begin{table}[ht]
 	\centering
+	\caption{Розрахунок вагомості параметрів}
 \begin{tabular}{| p{0.17\textwidth} | p{0.033\textwidth} | p{0.033\textwidth} | p{0.033\textwidth} | p{0.033\textwidth} | p{0.06\textwidth} | p{0.07\textwidth} | p{0.06\textwidth} | p{0.07\textwidth} |	p{0.06\textwidth}|p{0.07\textwidth}|}
 	\hline
 	\multicolumn{5}{|c|}{Ітерації} & \multicolumn{2}{c|}{1} & \multicolumn{2}{c|}{2} & \multicolumn{2}{c|}{3} \\
@@ -211,7 +212,6 @@ $X_4$ показує кількість програмного коду який
 	\hline	 
 	\multicolumn{5}{|l|}{Всього:} &16 &1 &98 &1 &445 &1 \\
 	\hline
-\end{tabular}
-	\caption{Розрахунок вагомості параметрів}
+\end{tabular}	
 	\label{tab:economics:weight_param}
 \end{table}
