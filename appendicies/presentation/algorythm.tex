@@ -66,6 +66,25 @@
 
 \begin{frame}
 	\manimate
+	\frametitle{Фільтрація ймовірностей, результати}
+	\includegraphics[width=0.5\linewidth]{prob_filter}
+	
+	Таким чином була повністю видалена область з малими ймовірностями ( обведена червоним кольором ) та відфільтрована  область, яка відповідає за основні кольори шкіри.
+	
+\end{frame}
+
+\begin{frame}
+	\manimate
 	\frametitle{Відеопотік камери глибини}
 	\includegraphics[width=1.0\linewidth]{im/depth_camera}
+\end{frame}
+
+\begin{frame}
+	\manimate
+	\frametitle{Удосконалення методу навчання}
+	\begin{itemize}
+		\item Звичайним методом навчання байесовського класифікатора є отримання бази фотографій людських рук та виділення їх вручну у графічному редакторі.
+		
+		\item Запропонований метод навчання використувує синхронізовані потоки RGB та depth камери Intel Realsense F200 та дозволяє навчити класифікатор за менше ніж 2 хвилини.
+	\end{itemize}
 \end{frame}
